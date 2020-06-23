@@ -90,7 +90,7 @@ x_won = "XXX"
 o_won = "OOO"
 check = win_or_draw()
 if x_won in check:
-    print("X wins")
+    print("X Wins")
 elif o_won in check:
     print("O wins")
 elif " " in cells:

@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Description</h2>
 
-<p>It is time to make some variations of the game possible. What if you want to play with a friend and not with AI? What if you get tired of playing the game and want to see a match between two AI? Finally, you need to be able to play either the first move or the second move playing against AI. </p>
+<p>It is time to make some variations of the game possible. What if you want to play with a friend and not with AI? What if you get tired of playing the game and want to see a match between two AI? Finally, you need to be able to play either the first move or the second move playing against AI. </p>
 
 <p>You should also be able to finish the game after receiving the result.</p>
 
@@ -9,8 +9,8 @@
 <p>Your tasks for this stage:</p>
 
 <ol>
-	<li>Write a menu loop, which can interpret two commands: <code class="java">"start"</code> and <code class="java">"exit"</code>.</li>
-	<li>Implement the command <code class="java">"start"</code> , which should take two parameters: who will play <code class="java">X</code> and who will play <code class="java">O</code>. Two parameters are possible for now: <code class="java">"user"</code> to play as a human and <code class="java">"easy"</code> to play as an easy level AI.</li>
+	<li>Write a menu loop, which can interpret two commands: <code class="java">"start"</code> and <code class="java">"exit"</code>.</li>
+	<li>Implement the command <code class="java">"start"</code> , which should take two parameters: who will play <code class="java">X</code> and who will play <code class="java">O</code>. Two parameters are possible for now: <code class="java">"user"</code> to play as a human and <code class="java">"easy"</code> to play as an easy level AI.</li>
 	<li>The command <code class="java">"exit"</code> should simply terminate the program.</li>
 </ol>
 
@@ -21,7 +21,7 @@
 <h2 style="text-align: center;">Example</h2>
 
 <p>The example below shows how your program should work.<br>
-The greater-than symbol followed by space (<code class="java">&gt; </code>) represents the user input. Notice that it's not the part of the input.</p>
+The greater-than symbol followed by space (<code class="java">&gt; </code>) represents the user input. Notice that it's not the part of the input.</p>
 
 <pre><code class="language-no-highlight">Input command: &gt; start
 Bad parameters!
@@ -29,43 +29,43 @@ Input command: &gt; start easy
 Bad parameters!
 Input command: &gt; start easy easy
 ---------
-|       |
-|       |
-|       |
+|       |
+|       |
+|       |
 ---------
 Making move level "easy"
 ---------
-|       |
-|     X |
-|       |
+|       |
+|     X |
+|       |
 ---------
 Making move level "easy"
 ---------
-|       |
+|       |
 | O   X |
-|       |
+|       |
 ---------
 Making move level "easy"
 ---------
-|       |
+|       |
 | O   X |
-|     X |
+|     X |
 ---------
 Making move level "easy"
 ---------
-|       |
+|       |
 | O   X |
 |   O X |
 ---------
 Making move level "easy"
 ---------
-|       |
+|       |
 | O X X |
 |   O X |
 ---------
 Making move level "easy"
 ---------
-|     O |
+|     O |
 | O X X |
 |   O X |
 ---------
@@ -79,27 +79,27 @@ X wins
 
 Input command: &gt; start easy user
 ---------
-|       |
-|       |
-|       |
+|       |
+|       |
+|       |
 ---------
 Making move level "easy"
 ---------
-|       |
-|       |
-|     X |
+|       |
+|       |
+|     X |
 ---------
 Enter the coordinates: &gt; 2 2
 ---------
-|       |
+|       |
 |   O   |
-|     X |
+|     X |
 ---------
 Making move level "easy"
 ---------
 |   X   |
 |   O   |
-|     X |
+|     X |
 ---------
 Enter the coordinates: &gt; 1 1
 ---------
@@ -129,37 +129,37 @@ X wins
 
 Input command: &gt; start user user
 ---------
-|       |
-|       |
-|       |
+|       |
+|       |
+|       |
 ---------
 Enter the coordinates: &gt; 1 1
 ---------
-|       |
-|       |
-| X     |
+|       |
+|       |
+| X     |
 ---------
 Enter the coordinates: &gt; 2 2
 ---------
-|       |
+|       |
 |   O   |
-| X     |
+| X     |
 ---------
 Enter the coordinates: &gt; 1 2
 ---------
-|       |
+|       |
 | X O   |
-| X     |
+| X     |
 ---------
 Enter the coordinates: &gt; 2 1
 ---------
-|       |
+|       |
 | X O   |
 | X O   |
 ---------
 Enter the coordinates: &gt; 1 3
 ---------
-| X     |
+| X     |
 | X O   |
 | X O   |
 ---------
